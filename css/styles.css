@@ -5,11 +5,11 @@
 
 
 
-. {
+.task {
   cursor: pointer;
   color: #0088cc;
 }
 
-. {
+.task {
   text-decoration: underline;
 }
