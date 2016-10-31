@@ -1,15 +1,45 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1 {
+  font-family: 'Butcherman', cursive;
+}
+
+.task {
+  cursor: pointer;
+  color: grey;
+  text-decoration: underline;
+  line-height: 3em;
+  font-size: 18px;
+  margin-right: 2em;
+}
+
+.done {
+  margin-bottom: 5.5px;
+  background-color: orange;
+}
+
+#skeleton {
+  border-radius: 5px;
+  margin: 25px auto auto 10px;
+}
 
 #taskDisplay {
   display: none;
 }
 
+#animation {
+  display: block;
+  width: 100%;
+  background-color: white;
+  height: auto;
 
-
-.task {
-  cursor: pointer;
-  color: #0088cc;
 }
 
-.task {
-  text-decoration: underline;
+#bat {
+  display: block;
+  position: fixed;
 }
